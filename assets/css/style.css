@@ -1,0 +1,75 @@
+/* fix time chunk fomatting! 
+make borders on time chunk + input field uniform 
+customize font weights per field*/
+
+body {
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #00072c;
+  border-left: 1px solid #00072c;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #6190d6;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid #273570;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #5e5e6b;
+  color: #ffffff;
+}
+
+.present {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.future {
+  background-color: #3663a8;
+  color: white;
+}
+
+.saveBtn {
+  border: 1px solid #273570;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #6190d6;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
