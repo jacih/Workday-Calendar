@@ -38,11 +38,8 @@ $(document).ready(function() {
       localStorage.setItem(timeslot, input);
       });
 
-<<<<<<< HEAD
+
     checkTime();
     getLocalStorage();
   });
-=======
-  checkTime();
 }
->>>>>>> 18f47349c8d7e6f936d6065e04ce87020ea9ed9a
