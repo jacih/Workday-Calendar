@@ -30,5 +30,5 @@ $(document).ready(function() {
       localStorage.setItem(timeslot, input);
       });
 
-    checkTime();
-  });
+  checkTime();
+}
