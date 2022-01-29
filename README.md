@@ -24,4 +24,4 @@ The Work Day Calendar application uses moment.js to provide today’s date for e
 
 [Apache License v2.0 Link](https://www.apache.org/licenses/LICENSE-2.0)
 
-[Repo License File]()
+[Repo License File](https://github.com/jacih/Workday-Calendar/blob/20276f33e1d95da828f7bc268962228fdf743b14/LICENSE.txt)
