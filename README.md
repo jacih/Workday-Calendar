@@ -10,7 +10,7 @@ The Work Day Calendar application uses moment.js to provide today’s date for e
 
 ## Mock-Up
 
-![Static Image](./assets/images/Work Day Calendar mockup.png)
+![Static Image](https://github.com/jacih/Workday-Calendar/blob/1452e85634b5fb7b113be24d80e3359ca8bca6da/assets/images/Work%20Day%20Calendar%20mockup.png)
 
 []()
 
