@@ -16,7 +16,7 @@ The Work Day Calendar application uses moment.js to provide today’s date for e
 
 ### Application Links
 
-[live Staging Link](https://jacih.github.io/Workday-Calendar/)
+[Live Staging Link](https://jacih.github.io/Workday-Calendar/)
 
 [Github Repository](https://github.com/jacih/Workday-Calendar.git)
 
