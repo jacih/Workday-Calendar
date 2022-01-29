@@ -4,90 +4,98 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;800&display=swap" rel="stylesheet" />
+   <!-- font awesome -->
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous" />
+    <!-- bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+    <!-- css -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <title>Work Day Scheduler</title>
+    <title>Work Day Calendar</title>
   </head>
 
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day <span>Scheduler</span></h1>
-      <p class="lead"></p>
+    <header class="jumbotron column justify-content-center">
+      <h1 class="display-3 font-weight-bold m-lr-5">Work Day Calendar</h1>
+      <p class="lead">A simple scheduling app for your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
 
-    <main class="time-block container m-3 mx-auto">
+    <main class="time-block container m-t-5 mx-auto text-align-center">
 
-      <div class="input-group" id="nine-block">
-        <span class="input-group-text">09:00AM</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div class="input-group" id="block9">
+        <span class="input-group-text custom">09:00AM</span>
+        <textarea class="form-control" aria-label="work-hour-input"></textarea>
         <button class="btn saveBtn" type="button" id="button-addon2"><i class='fa fa-save'></i></button>
       </div>
 
-      <div class="input-group" id="ten-block">
-        <span class="input-group-text">10:00AM</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div class="input-group" id="block10">
+        <span class="input-group-text custom">10:00AM</span>
+        <textarea class="form-control" aria-label="work-hour-input"></textarea>
         <button class="btn saveBtn" type="button" id="button-addon2"><i class='fa fa-save'></i></button>
       </div>
 
-      <div class="input-group" id="eleven-block">
-        <span class="input-group-text">11:00AM</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div class="input-group" id="block11">
+        <span class="input-group-text custom">11:00AM</span>
+        <textarea class="form-control" aria-label="work-hour-input"></textarea>
         <button class="btn saveBtn" type="button" id="button-addon2"><i class='fa fa-save'></i></button>
       </div>
 
-      <div class="input-group" id="twelve-block">
-        <span class="input-group-text">12:00PM</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div class="input-group" id="block12">
+        <span class="input-group-text custom">12:00PM</span>
+        <textarea class="form-control" aria-label="work-hour-input"></textarea>
         <button class="btn saveBtn" type="button" id="button-addon2"><i class='fa fa-save'></i></button>
       </div>
 
-      <div class="input-group" id="one-block">
-        <span class="input-group-text">01:00PM</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div class="input-group" id="block13">
+        <span class="input-group-text custom">13:00PM</span>
+        <textarea class="form-control" aria-label="work-hour-input"></textarea>
         <button class="btn saveBtn" type="button" id="button-addon2"><i class='fa fa-save'></i></button>
       </div>
 
-      <div class="input-group" id="two-block">
-        <span class="input-group-text">02:00PM</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div class="input-group" id="block14">
+        <span class="input-group-text custom">14:00PM</span>
+        <textarea class="form-control" aria-label="work-hour-input"></textarea>
         <button class="btn saveBtn" type="button" id="button-addon2"><i class='fa fa-save'></i></button>
       </div>      
 
-      <div class="input-group" id="three-block">
-        <span class="input-group-text">03:00PM</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div class="input-group" id="block15">
+        <span class="input-group-text custom">15:00PM</span>
+        <textarea class="form-control" aria-label="work-hour-input"></textarea>
         <button class="btn saveBtn" type="button" id="button-addon2"><i class='fa fa-save'></i></button>
       </div>
 
-      <div class="input-group" id="four-block">
-        <span class="input-group-text">04:00PM</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div class="input-group" id="block16">
+        <span class="input-group-text custom">16:00PM</span>
+        <textarea class="form-control" aria-label="work-hour-input"></textarea>
         <button class="btn saveBtn" type="button" id="button-addon2"><i class='fa fa-save'></i></button>
       </div>
 
-      <div class="input-group" id="five-block">
-        <span class="input-group-text">05:00PM</span>
-        <textarea class="form-control" aria-label="With textarea"></textarea>
+      <div class="input-group" id="block17">
+        <span class="input-group-text custom">17:00PM</span>
+        <textarea class="form-control" aria-label="work-hour-input"></textarea>
         <button class="btn saveBtn" type="button" id="button-addon2"><i class="fa fa-save"></i></button>
       </div>
 
     </main>
-
+    
+    <!-- jquery links -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- moment link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <!-- javascript -->
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

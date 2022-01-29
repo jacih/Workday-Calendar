@@ -1,75 +1,85 @@
 /* fix time chunk fomatting! 
 make borders on time chunk + input field uniform 
 customize font weights per field*/
+:root {
+  --black: #000000;
+  --navy: #00072c;
+  --drkblue: #273570;
+  --medblue: #6d93cb;
+  --future: #0b49a6;
+  --past: #5e5e6b;
+  --present: #ffffff;
+  --medgrey: #b1b1b9b7;
+}
 
 body {
   font-family: 'Poppins';
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: var(--medblue);
+  color: var(--navy);
+  border-bottom: 10px solid var(--drkblue);
+}
+
+.lead {
+  padding-top: 40px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#currentDay {
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.custom {
+  width: 90px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+  justify-content: center;
+  color: var(--drkblue);
+  font-weight: 700;
 }
 
 textarea {
   background: transparent;
   border: none;
-  resize: none;
-  color: #00072c;
-  border-left: 1px solid #00072c;
+  color: var(--navy);
   padding: 10px;
-}
-
-.jumbotron {
-  text-align: center;
-  background-color: #6190d6;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid #273570;
-}
-
-.description {
-  white-space: pre-wrap;
-}
-
-.time-block {
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  min-height: 50px;
+  max-height: 200px;
 }
 
 .past {
-  background-color: #5e5e6b;
-  color: #ffffff;
+  background-color: var(--past);
+  color: var(--present);
 }
 
 .present {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--present);
+  color: var(--black);
 }
 
 .future {
-  background-color: #3663a8;
-  color: white;
+  background-color: var(--future);
+  color: var(--present);
 }
 
 .saveBtn {
-  border: 1px solid #273570;
+  border: 1px solid var(--medgrey);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #6190d6;
-  color: white;
+  background-color: var(--medblue);
+  color: var(--present);
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  color: var(--drkblue);
 }
