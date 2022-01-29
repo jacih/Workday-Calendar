@@ -7,9 +7,10 @@ customize font weights per field*/
   --drkblue: #273570;
   --medblue: #6d93cb;
   --future: #0b49a6;
-  --past: #5e5e6b;
-  --present: #ffffff;
+  --past: #7d7d89;
+  --present: #fbf2b9;
   --medgrey: #b1b1b9b7;
+  --white: #ffffff;
 }
 
 body {
@@ -57,17 +58,17 @@ textarea {
 
 .past {
   background-color: var(--past);
-  color: var(--present);
+  color: var(--white);
 }
 
 .present {
   background-color: var(--present);
-  color: var(--black);
+  color: var(--navy);
 }
 
 .future {
   background-color: var(--future);
-  color: var(--present);
+  color: var(--white);
 }
 
 .saveBtn {
@@ -75,7 +76,7 @@ textarea {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: var(--medblue);
-  color: var(--present);
+  color: var(--white);
 }
 
 .saveBtn i:hover {

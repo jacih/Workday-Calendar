@@ -1,8 +1,16 @@
 let dateEl = $("#currentDay");
 let hourRowEl = $(".input-group");
-
 let saveBtnEl = $(".saveBtn");
 
+function getLocalStorage() {
+  
+  hourRowEl.each(function() {
+    let storedTask = $(this).attr("id");
+    if (localStorage.getItem(storedTask) !== null) {
+      $(this).children("textarea").val(localStorage.getItem(storedTask));
+    }
+  });
+}
 
 function checkTime() {
   
@@ -31,4 +39,5 @@ $(document).ready(function() {
       });
 
     checkTime();
+    getLocalStorage();
   });
