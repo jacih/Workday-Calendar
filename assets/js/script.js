@@ -1,3 +1,6 @@
+//fix localstorage.get issue;
+//add input field sortable function?
+
 let dateEl = $("#currentDay");
 let hourRowEl = $(".input-group");
 
@@ -42,6 +45,15 @@ function getLocalStorage() {
 //     if (storedTask !== null) {
 //       $(this).children("textarea").val() = storedTask;
 //     }
+// $("#nine-block .input-group-text").val(localStorage.getItem("nine"));
+// $("#ten-block .input-group-text").val(localStorage.getItem("ten"));
+// $("#eleven-block .input-group-text").val(localStorage.getItem("eleven"));
+// $("#twelve-block .input-group-text").val(localStorage.getItem("twelve"));
+// $("#one-block .input-group-text").val(localStorage.getItem("one"));
+// $("#two-block .input-group-text").val(localStorage.getItem("two"));
+// $("#three-block .input-group-text").val(localStorage.getItem("three"));
+// $("#four-block .input-group-text").val(localStorage.getItem("four"));
+// $("#five-block .input-group-text").val(localStorage.getItem("five"));
   });
 }
 
