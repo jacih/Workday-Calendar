@@ -42,4 +42,3 @@ $(document).ready(function() {
     checkTime();
     getLocalStorage();
   });
-}
